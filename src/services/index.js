@@ -1,5 +1,9 @@
-import {sendCheckPassword} from './Autentication'
+import {sendCheckPassword, sendChangePassword, sendForgotPassword, getMergeAccount, sendMergeAccount} from './Autentication'
 
 export {
-    sendCheckPassword
+    sendCheckPassword,
+    sendChangePassword,
+    sendForgotPassword,
+    getMergeAccount,
+    sendMergeAccount
 }

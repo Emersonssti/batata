@@ -4,7 +4,8 @@ import {
   FormLogin,
   Loader,
   AlertsErrors,
-  ModalRecoveryPassword
+  ModalRecoveryPassword,
+  ModalRegisterData
 } from "../../components";
 
 import { validatorEmail } from "../../utils";
@@ -88,10 +89,10 @@ export default class Login extends Component {
             {this.state.errorMessage !== "" && (
               <AlertsErrors message={this.state.errorMessage} />
             )}
-{/* 
-            <ModalRecoveryPassword /> */}
 
-            {/* <ModalRegisterData />  */}
+            <ModalRecoveryPassword />
+
+            <ModalRegisterData /> 
           </section>
         </div>
       </main>
